@@ -64,7 +64,7 @@ $(function() {
          });
         
         it('should be One entry At least', function(done) {
-            var feed = document.querySelector('.feed').getElementsByClassName('entry')[0];
+            var feed = document.querySelector('.feed .entry');
             expect(feed.length).not.toBe(0);
             done();
             })  
